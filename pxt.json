@@ -1,8 +1,9 @@
 {
-    "name": "Touch Grass!",
+    "name": "Touch Grass! (finnished)",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
