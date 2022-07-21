@@ -1307,6 +1307,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.builtin.coral0, function (sprite,
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     game.reset()
 })
+let jumpstat = 0
 let mySprite: Sprite = null
 let swordSprite: Sprite = null
 let anim: animation.Animation = null
@@ -1319,7 +1320,6 @@ music.zapped.playUntilDone()
 game.splash("its over")
 music.bigCrash.playUntilDone()
 level = 1
-let jumpstat = 0
 pause(100)
 info.startCountdown(25)
 scene.cameraShake(4, 1850)
